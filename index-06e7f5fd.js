@@ -165,7 +165,7 @@
         name="message"
         rows="4"
         placeholder=${this.tmessage}
-        class="input_style input_full"
+        class="input_style"
         aria-label="${this.tmessage}"
       ></textarea>
       
@@ -204,19 +204,24 @@
       padding: 2rem;
       text-align: center;
     }
-    
-    .form_styles {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
 
     .contentForm {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 100%;
     }
+    
+    .form_styles {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 95%;
+      margin: 0 auto;
+    }
+
+   
 
     .content_flex {
       display: flex;
